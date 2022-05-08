@@ -14,6 +14,7 @@ import "typeface-open-sans";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
+// const root = React.DOM.createRoot(document.getElementById('root));
 
 root.render(
   <React.StrictMode>
