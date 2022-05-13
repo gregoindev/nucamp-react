@@ -6,14 +6,13 @@ import { selectCampsiteById } from "../features/campsites/campsitesSlice";
 
 const CampsitesDirectoryPage = () => {
   const [campsiteId, setCampsiteId] = useState(0);
-
   const selectedCampsite = selectCampsiteById(campsiteId);
 
   return (
     <Container>
       <Row>
         <Col sm="5" md="7">
-          <CampsitesList />
+          <CampsitesList setCampsiteId={setCampsiteId} />
         </Col>
         <Col sm="7" md="5">
           <CampsiteDetail campsite={selectedCampsite} />
