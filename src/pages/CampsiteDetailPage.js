@@ -1,4 +1,5 @@
 import { Container, Row } from "reactstrap";
+import SubHeader from "../components/SubHeader";
 import CommentsList from "../features/comments/CommentsList";
 import { useParams } from "react-router-dom";
 import { selectCampsiteById } from "../features/campsites/campsitesSlice";
@@ -10,6 +11,7 @@ const CampsiteDetailPage = () => {
 
   return (
     <Container>
+      <SubHeader current={campsite.name} detail={true} />
       <Row>
         <CampsiteDetail campsite={campsite} />
         <CommentsList campsiteId={campsiteId} />
