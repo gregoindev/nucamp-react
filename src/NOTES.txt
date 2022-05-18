@@ -1,0 +1,28 @@
+Computed property names:
+
+--> const myProperty = "foo";
+const myObject = {
+    [myProperty]: "This is a test"
+};
+   // myObject = foo: "This is a test"
+
+
+   --- Regex
+   ^ beginning of a string
+   $ ending 
+   \d 0-9
+   + to repeat or more times
+
+   https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+
+
+--- useRef - hook that creates a reference, data persists
+--> const divEl = useRef('the initial value')    // divEl.current -> 'the initial value'
+           
+References can be used to: access the DOM directly, store data outside of React's state
+
+--- Forms
+Uncontrolled & Controlled Forms
+
+e.preventDefault();
+
