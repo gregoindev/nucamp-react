@@ -39,4 +39,5 @@ jsx 'htmlFor' = html 'for'
 
 JSON - Javascript Object Notation
 
+Yup with formik : https://www.npmjs.com/package/yup
 
