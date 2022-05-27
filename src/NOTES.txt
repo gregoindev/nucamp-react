@@ -1,0 +1,1 @@
+useSelector hook has access to Redux store
