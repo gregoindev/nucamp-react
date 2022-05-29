@@ -1,1 +1,24 @@
 useSelector hook has access to Redux store
+
+Redux - package that implements the 'Flux pattern'
+
+FLOW: Action --> dispatch->REDUCER-> State -> View ->  %
+
+
+* Context API worth our time... https://reactjs.org/docs/context.html 
+
+
+
+
+<Provider store={store}> -> "ready to use Redux" 
+
+Reducers - are functions that receives 2 args: (state, action)
+
+Array.reduce() - reduces down a list of elements into one single result
+--> numbers.reduce(function(previousValue, currentValue){
+     return previousValue + currentValue
+ )
+
+ +useDispatch
+
+ +useSelector
